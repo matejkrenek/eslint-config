@@ -1,0 +1,43 @@
+{
+  "name": "@matejkrenek/eslint-config",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "eslint --fix"
+  },
+  "peerDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.6.0"
+  },
+  "keywords": [
+    "eslint",
+    "prettier",
+    "react",
+    "config"
+  ],
+  "author": "Matěj Křenek",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matejkrenek/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matejkrenek/eslint-config/issues"
+  },
+  "homepage": "https://github.com/matejkrenek/eslint-config#readme"
+}
